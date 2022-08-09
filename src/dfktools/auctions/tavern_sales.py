@@ -11,12 +11,12 @@ logger = logging.getLogger("DFK-auctions")
 logger.setLevel(logging.DEBUG)
 logging.basicConfig(level=logging.INFO, format=log_format, stream=sys.stdout)
 
-user = '0x022a09f4cB866d4d70853C9f8D50Ce33f1Fa0db7'
+user = ''
 rpc_address = 'https://api.harmony.one'
 auction_address = '0x13a65B9F8039E2c032Bc022171Dc05B30c3f2892'
 duration = 60
 winner = '0x0000000000000000000000000000000000000000'
-private_key = '04eb989e6a6a6da5ae1ddff81a0688b8ec161446c1f18f3165a4f20a3688c9b6'
+private_key = ''
 gas_price_gwei = 300
 tx_timeout_seconds = 60
 w3 = Web3(Web3.HTTPProvider(rpc_address))
